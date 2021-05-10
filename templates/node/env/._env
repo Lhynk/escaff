@@ -1,0 +1,2 @@
+APP_URI = http://localhost:4200
+SECRET_COOKIES = MY_SECRET_WORD

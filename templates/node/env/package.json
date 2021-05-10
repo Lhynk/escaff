@@ -1,0 +1,22 @@
+{
+  "name": "[NAME]",
+  "version": "[VERSION]",
+  "description": "[DESCRIPTION]",
+  "main": "server.js",
+  "scripts": {
+    "start": "node -r dotenv/config server.js",
+    "start:dev": "nodemon -r dotenv/config server.js",
+    "debug": "nodemon --inspect -r dotenv/config server.js"
+  },
+  "author": "[AUTHOR]",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "dotenv": "^8.2.0"
+  }
+}

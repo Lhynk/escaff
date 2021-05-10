@@ -1,0 +1,20 @@
+{
+  "name": "escaff",
+  "version": "1.0.0",
+  "description": "Scaffolding tool ",
+  "main": "index.js",
+  "bin": {
+    "escaff": "index.js"
+  },
+  "keywords": [
+    "scaffold"
+  ],
+  "author": "esau.orozco",
+  "license": "ISC",
+  "dependencies": {
+    "caporal": "^1.4.0",
+    "colors": "^1.4.0",
+    "prompt": "^1.1.0",
+    "shelljs": "^0.8.4"
+  }
+}

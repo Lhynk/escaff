@@ -1,0 +1,20 @@
+{
+  "name": "[NAME]",
+  "version": "[VERSION]",
+  "description": "[DESCRIPTION]",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "nodemon -r server.js",
+    "debug": "nodemon --inspect server.js"
+  },
+  "author": "[AUTHOR]",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
