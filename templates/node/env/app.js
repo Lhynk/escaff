@@ -1,10 +1,11 @@
 const express = require('express');
 const cors = require('cors');
+const cookieParser = require('cookie-parser');
 
 const app = express();
 
 // Template to add routes
-const fooRoutes = require('./api/routes/foo');
+const fooRoutes = require('./routes/foo');
 
 app.use(express.json());
 app.use(
